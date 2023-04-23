@@ -40,6 +40,12 @@ Your API key is stored only on your device and never transmitted to anyone excep
 3. Navigate to the `app` folder of the repository and execute the command `npm install`.
 4. Start the app via the command `npm start`. The web app will be available on [http://localhost:3000](http://localhost:3000).
 
+## Run locally with Docker
+Prerequisites: you have to install Docker on your machine.
+Open a terminal in the root of the project and execute `docker compose up` to run the application.   
+The web app will be available on [http://localhost:3000](http://localhost:3000).
+To stop the application, just hit Control-C and issue a `docker compose down` command to clean the env up.
+
 ## License
 
 Open Access GPT is licensed under the MIT license. See the LICENSE file for more information.
